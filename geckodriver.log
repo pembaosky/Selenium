@@ -1,0 +1,31 @@
+1692058618695	geckodriver	INFO	Listening on 127.0.0.1:55076
+1692058621788	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55077" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Pemba\\AppData\\Local\\Temp\\rust_mozprofileRxXD0V"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692058622757	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1692058622864	Marionette	INFO	Listening on port 55088
+WebDriver BiDi listening on ws://127.0.0.1:55077
+Read port: 55088
+1692058623182	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55077/devtools/browser/4352e84b-b7d7-493c-8488-1352fbd58643
+1692058811099	Marionette	INFO	Stopped listening on port 55088
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+"--remote-debugging-port" "55209" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Pemba\\AppData\\Local\\Temp\\rust_mozprofileD6xx63"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692058688340	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1692058688440	Marionette	INFO	Listening on port 55220
+WebDriver BiDi listening on ws://127.0.0.1:55209
+Read port: 55220
+1692058688670	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55209/devtools/browser/f8db4ddc-5b3e-4bdc-b2aa-7e776c82dd01
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3idip4/yr/l/en_US/qGAcr7asCRf.js?_nc_x=Ij3Wp8lg5Kz, line 11: unreachable code after return statement
+1692058808569	Marionette	INFO	Stopped listening on port 55220
+Dynamically enable window occlusion 1
+[Parent 3852, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:793
